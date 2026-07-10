@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jefferson Lucas | Dev Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./aurora.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./icon.png" />
+  </head>
+
+  <body>
+    <!-- ============ BARRA SUPERIOR / NAVEGAÇÃO ============ -->
+    <div class="editor-topbar">
+      <div class="traffic-lights"><span></span><span></span><span></span></div>
+      <div class="tabs">
+        <button class="tab active" data-target="hero">
+          <span class="dot"></span>inicio.js
+        </button>
+        <button class="tab" data-target="sobre">sobre.js</button>
+        <button class="tab" data-target="projetos">projetos.js</button>
+        <button class="tab" data-target="contato">contato.js</button>
+      </div>
+    </div>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section id="hero" class="hero">
+        <div class="code-window reveal">
+          <div class="code-window-head">
+            <div class="traffic-lights">
+              <span></span><span></span><span></span>
+            </div>
+            <span>inicio.js</span>
+          </div>
+          <div class="code-body">
+            <span class="ln">1</span><span class="tok-kw">const</span> dev
+            <span class="tok-punc">=</span> {<br />
+            <span class="ln">2</span>&nbsp;&nbsp;<span class="tok-key"
+              >nome</span
+            ><span class="tok-punc">:</span>
+            <span class="tok-str">'Jefferson Lucas Sombra de Matos'</span
+            >,<br />
+            <span class="ln">3</span>&nbsp;&nbsp;<span class="tok-key"
+              >cargo</span
+            ><span class="tok-punc">:</span>
+            <span class="tok-str">'Estudante de programação'</span>,<br />
+            <span class="ln">4</span>&nbsp;&nbsp;<span class="tok-key"
+              >stack</span
+            ><span class="tok-punc">:</span> [<span class="tok-str"
+              >'JavaScript'</span
+            >, <span class="tok-str">'Java'</span>,
+            <span class="tok-str">'Python'</span>
+            <span class="tok-str">'HTML'</span>
+            <span class="tok-str">'CSS'</span>]
+
+            <br />
+            <span class="ln">5</span>&nbsp;&nbsp;
+            <span class="tok-com">// disponível para novos projetos</span><br />
+
+            <span class="ln">6</span>};<span class="cursor-blink"></span>
+          </div>
+        </div>
+        <h1 class="reveal">Olá, sou Jefferson Lucas</h1>
+        <p class="role reveal">
+          Estudante de Engenharia de Software com conhecimentos em Python, HTML,
+          CSS, JavaScript e Java, construindo minha trajetória na área de
+          desenvolvimento.
+        </p>
+      </section>
+
+      <!-- ============ SOBRE ============ -->
+      <section id="sobre">
+        <div class="line-label reveal">sobre-mim</div>
+        <div class="import-line reveal">
+          <span class="tok-kw">import</span> { habilidades }
+          <span class="tok-kw">from</span>
+          <span class="tok-str">'./jefferon_lucas'</span>;
+        </div>
+        <p class="about-text reveal">
+          Sou estudante de Engenharia de Software, atualmente no 4º período, com
+          foco em desenvolvimento de software. Tenho experiência com HTML, CSS,
+          JavaScript e Python, e atualmente estou aprofundando meus
+          conhecimentos em Java e desenvolvimento de aplicações.
+        </p>
+
+        <p class="about-text reveal">
+          Gosto de transformar ideias em projetos funcionais, criando interfaces
+          modernas, responsivas e intuitivas. Estou sempre buscando aprender
+          novas tecnologias e aprimorar minhas habilidades por meio de projetos
+          práticos, explorando boas práticas de desenvolvimento e novas
+          ferramentas.
+        </p>
+        <div class="skills reveal">
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">MySQL</span>
+        </div>
+      </section>
+
+      <!-- ============ PROJETOS ============ -->
+      <section id="projetos">
+        <div class="line-label reveal">projetos-em-destaque</div>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-head">
+              <h3>Briefing Cadastro de Pessoas</h3>
+              <div class="diff-stats">
+                <span class="diff-add">+284</span
+                ><span class="diff-rem">-32</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Aplicação desenvolvida para realizar o cadastro e gerenciamento de
+              pessoas, permitindo adicionar, editar, excluir e consultar
+              registros de forma simples e organizada.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://jeffersonlucas0.github.io/Briefing-Cadastro-de-Pessoas/"
+                target="_blank"
+                rel="noopener"
+                >Ver →</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-head">
+              <h3>Rec - Filmes Populares</h3>
+              <div class="diff-stats">
+                <span class="diff-add">+152</span
+                ><span class="diff-rem">-18</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Aplicação web que consome uma API de filmes para exibir
+              informações como títulos, avaliações, sinopse e pôsteres,
+              proporcionando uma experiência simples e intuitiva de busca.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://jeffersonlucas0.github.io/rec/"
+                target="_blank"
+                rel="noopener"
+                >Ver →</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-head">
+              <h3>Organiza Infinity</h3>
+              <div class="diff-stats">
+                <span class="diff-add">+96</span
+                ><span class="diff-rem">-7</span>
+              </div>
+            </div>
+            <p class="project-desc">
+              Organiza Infinity é uma plataforma web de organização e
+              produtividade desenvolvida para o Hackathon Infinity School 2025.
+              O sistema oferece dashboard interativo, calendário, anotações,
+              gerenciamento de perfil e tema escuro, proporcionando uma
+              experiência moderna e intuitiva para otimizar a rotina dos
+              colaboradores.
+            </p>
+            <div class="project-tags">
+              <span>HTML</span><span>JavaScript</span><span>CSS</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://jeffersonlucas0.github.io/organiza_infinity/"
+                target="_blank"
+                rel="noopener"
+                >Ver →</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTATO ============ -->
+      <section id="contato">
+        <div class="line-label reveal">contato</div>
+        <div class="terminal reveal">
+          <p>
+            <span class="prompt">$</span>
+            <span class="path">~/Jefferson Lucas</span> contato --iniciar
+          </p>
+          <p>
+            Vamos conversar sobre seu próximo projeto? Estou disponível por
+            e-mail ou redes abaixo.
+          </p>
+        </div>
+        <div class="contact-links reveal">
+          <a href="mailto:seuemail@exemplo.com"
+            >✉ jeffersonlucassm10@gmail.com</a
+          >
+          <a
+            href="https://github.com/jeffersonlucas0"
+            target="_blank"
+            rel="noopener"
+            >↗ GitHub</a
+          >
+          <a
+            href="www.linkedin.com/in/jefferson-lucas-750608350"
+            target="_blank"
+            rel="noopener"
+            >↗ LinkedIn</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © Copyright <span id="year"></span> jefferon_lucas
+      <span class="cursor-blink" style="width: 6px; height: 1em"></span>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="./aurora.js"></script>
+  </body>
+</html>
